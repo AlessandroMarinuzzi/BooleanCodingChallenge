@@ -1,0 +1,80 @@
+body{
+background-image:url(sfondo.jpg);
+background-size: cover;
+}
+
+
+  .Container{
+    background-position: center;
+    background-color: rgba(32, 32, 32, 0.5);
+    border-radius: 10px;
+    margin:20px 200px 150px 200px;
+
+  }
+
+  .Contenitore{
+    background-position: center;
+    padding: 80px 80px 80px 80px;
+  }
+
+
+/* Header */
+header{
+  text-align: center;
+}
+
+.logo{
+    width: 150px;
+  }
+
+.logotext{
+    font-size: 30px;
+    color: rgb(0, 240, 0);
+  }
+/* Header end */
+
+/* Nav */
+.pulsanti{
+  text-align: center;
+  padding: 8px 10px 8px 10px;
+  background-color: rgb(0, 240, 0);
+}
+/* Nav end */
+
+/* Main */
+div{ /* Ho usato il div generico essendo l'unico testo della pagina */
+  color: white;
+  line-height: 25px;
+}
+
+
+div.Owner {                        /* Preferito usare selettori avanzati per prendere abitudine */
+  font-weight: 900;
+  font-size:20px;
+  display: block;
+}
+
+div.Arrow:before {        /* Freccetta  */
+    content: ' \279D';
+}
+
+div.Verde{                /* Livelli batteria */
+  background-color: rgba(0, 255, 0, 1);
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  max-width: 200px;
+}
+
+div.Arancio{
+  background-color: orange;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  max-width: 145px;
+}
+
+div.Rossa{
+  background-color: red;
+  padding: 10px 10px 10px 10px;
+  border-radius: 10px 10px 10px 10px;
+  max-width: 50px;
+}
